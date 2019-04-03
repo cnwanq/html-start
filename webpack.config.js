@@ -11,7 +11,7 @@ module.exports = {
   entry: {
     index: './src/app/index.js',
     login: './src/app/login.js',
-    admin: './src/app/admin.js',
+    admin: './src/app/admin/index.js',
   },
   output: {
     filename: 'assets/js/[name].js',
